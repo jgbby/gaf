@@ -19,3 +19,6 @@
 
 5. Run the frontend:
     > npx vite --port=4000
+
+Note that upon loading the chat UI, the frontend will make a request to the backend API, so it's
+important to have the backend running first.  
