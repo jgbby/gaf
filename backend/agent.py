@@ -15,8 +15,6 @@ MAX_TOKENS = 10000
 load_dotenv()
 
 huggingface_api_token = os.getenv('HUGGINGFACE_API_TOKEN')
-reasoning_model_id = os.getenv('REASONING_MODEL_ID')
-openai_api_key = os.getenv('VITE_OPENAI_API_KEY')
 
 def get_model(model_id):
     using_huggingface = os.getenv("USE_HUGGINGFACE", "yes").lower() == "yes"

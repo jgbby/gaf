@@ -1,10 +1,9 @@
 1. Create a .env file containing the relevant keys:
-    VITE_OPENAI_API_KEY=
+    ```env
     OPENAI_API_KEY=
     HUGGINGFACE_API_TOKEN=
-    REASONING_MODEL_ID=deepseek-r1:7b
-    TOOL_MODEL_ID=deepseek-r1:7b
     USE_HUGGINGFACE=yes
+    ```
 
 2. Install the python virtual environment
     > python3.13 -m virtualenv venv
@@ -21,4 +20,4 @@
     > npx vite --port=4000
 
 Note that upon loading the chat UI, the frontend will make a request to the backend API, so it's
-important to have the backend running first.  
+important to have the backend running first.
